@@ -1,38 +1,9 @@
 {
-  "name": "promise",
+  "name": "kaerus-component-promise",
+  "description": "A+/Promises",
   "version": "0.3.4",
-  "description": "A+ compliant promises",
-  "keywords": [
-    "promise",
-    "component",
-    "uP"
-  ],
-  "author": { 
-    "name": "Kaerus",
-    "email": "contact@kaerus.com",
-    "web": "http://kaerus.com"
-  },
-  "contributors": [
-    "anders elo <anders@kaerus.com>"
-  ],
   "dependencies": {
-    "uP": "git://github.com/kaerus-component/uP.git#0.2.4"
+    "kaerus-component-uP": "git://github.com/npmcomponent/kaerus-component-uP.git"
   },
-  "devDependencies": {
-    "mocha":"*",
-    "should":"*",
-    "promises-aplus-tests":">=1.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/kaerus-component/promise/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/kaerus-component/promise"
-  },
-  "scripts": {
-    "test":"make test"
-  },
-  "main": "promise.js",
-  "license": "APACHE2_0"
+  "license": "Apache2_0"
 }

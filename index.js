@@ -1,4 +1,4 @@
-var uP = require('uP');
+var uP = require('kaerus-component-uP');
 
 (function(root){
     "use strict";
